@@ -1,0 +1,44 @@
+/* Ajusta la altura del logo según tus necesidades */
+.navbar-logo {
+  height: 5px; /* Cambia este valor según el tamaño deseado */
+  margin-right: 5px; /* Espacio entre el logo y el siguiente botón */
+}
+
+/* Otros estilos para el navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Espacia los elementos entre los bordes del contenedor */
+  align-items: center; /* Centra verticalmente los elementos */
+  padding: 10px 20px; /* Espaciado interno */
+  background-color: #380670; /* Fondo del navbar, ajusta según el diseño */
+  color: white; /* Color del texto */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: white; /* Ajusta el color del ícono según el diseño */
+  cursor: pointer; /* Cursor de mano al pasar sobre el ícono */
+  margin-right: 20px; /* Espacio entre el ícono de menú y el logo */
+}
+
+.nav-button {
+  color: white; /* Color del texto de los botones */
+  background: none; /* Sin fondo para los botones */
+  border: none; /* Sin borde */
+  padding: 10px 15px; /* Espaciado interno */
+  cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+}
+
+.nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo en hover */
+}
