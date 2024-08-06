@@ -1,22 +1,26 @@
-/* Ajusta la altura del logo según tus necesidades */
-.navbar-logo {
-  height: 5px; /* Cambia este valor según el tamaño deseado */
-  margin-right: 5px; /* Espacio entre el logo y el siguiente botón */
+.logo {
+  position: absolute;
+  left: 1px; /* Ajusta según la posición horizontal deseada */
+  top: 100%;  /* Posiciona la base del logo en la parte inferior del navbar */
+  transform: translateY(-60%); /* Mueve el logo hacia arriba un 50% de su altura */
+  height: 100px; /* Altura del logo */
+  z-index: 10; /* Asegura que el logo esté por encima de otros elementos */
 }
 
-/* Otros estilos para el navbar */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Espacia los elementos entre los bordes del contenedor */
-  align-items: center; /* Centra verticalmente los elementos */
-  padding: 10px 20px; /* Espaciado interno */
-  background-color: #380670; /* Fondo del navbar, ajusta según el diseño */
-  color: white; /* Color del texto */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #380670;
+  color: white;
+  position: relative; /* Necesario para que el logo se posicione correctamente */
 }
 
 .navbar-left {
   display: flex;
   align-items: center;
+  padding-left: 200px; /* Ajusta este valor según sea necesario */
 }
 
 .navbar-right {
@@ -26,19 +30,19 @@
 
 .menu-icon {
   font-size: 24px;
-  color: white; /* Ajusta el color del ícono según el diseño */
-  cursor: pointer; /* Cursor de mano al pasar sobre el ícono */
-  margin-right: 20px; /* Espacio entre el ícono de menú y el logo */
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
 }
 
 .nav-button {
-  color: white; /* Color del texto de los botones */
-  background: none; /* Sin fondo para los botones */
-  border: none; /* Sin borde */
-  padding: 10px 15px; /* Espaciado interno */
-  cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+  color: white;
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
 }
 
 .nav-button:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* Fondo en hover */
+  background-color: rgba(255, 255, 255, 0.1);
 }

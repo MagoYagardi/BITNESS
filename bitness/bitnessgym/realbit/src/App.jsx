@@ -11,12 +11,13 @@ import AboutUs from './pages/AboutUs';
 import FAQ from './pages/FAQ';
 import Trabaja from './pages/Trabaja';
 
+
 const App = () => {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/actividades" element={<Actividades />} />
         <Route path="/entrenadores" element={<Entrenadores />} />
         <Route path="/carrito" element={<Carrito />} />

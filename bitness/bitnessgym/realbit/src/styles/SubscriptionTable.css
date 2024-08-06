@@ -1,0 +1,38 @@
+.subscription-table {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .subscription-table h2 {
+    text-align: center;
+  }
+  
+  .subscription-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .subscription-table th, .subscription-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .subscription-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .subscription-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .subscription-table ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .subscription-table ul li {
+    padding: 4px 0;
+  }
+  

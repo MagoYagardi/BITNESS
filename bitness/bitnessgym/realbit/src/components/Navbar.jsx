@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+
+import { Link } from 'react-router-dom'; // Asegúrate de importar Link
 import '../styles/Navbar.css';
 import logo from '../assets/logo.png';
-import MenuIcon from './MenuIcon'; // Asegúrate de que esta importación sea correcta
+import MenuIcon from './MenuIcon';
 import NavButton from './NavButton';
 
 const Navbar = () => {
@@ -14,7 +15,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <img src={logo} alt="Logo" className="logo" />
+        <Link to="/home"> {/* Enlaza el logo a la página de inicio */}
+          <img src={logo} alt="Logo" className="logo" />
+        </Link>
         <NavButton to="/actividades">Actividades</NavButton>
         <NavButton to="/entrenadores">Entrenadores</NavButton>
         <NavButton to="/carrito">
