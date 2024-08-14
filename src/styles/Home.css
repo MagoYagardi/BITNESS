@@ -1,0 +1,45 @@
+
+.home {
+    background-image: url('../assets/background.png');
+    /*background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen en el fondo */
+  /*  background-repeat: no-repeat;  Evita que la imagen se repita */
+  /*  height: 100vh; /* Asegura que la altura sea el 100% del viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .home section {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    position: relative; /* Permite el posicionamiento absoluto del contenido dentro */
+    margin-top: 0; /* Asegúrate de que no haya margen superior adicional */
+  }
+  
+
+/* Estilo para la imagen frase */
+.frase {
+    position: absolute; /* Posiciona la imagen de manera absoluta dentro de .home */
+    top: 0; /* Pegado al borde superior del contenedor */
+    left: 0; /* Alineado al borde izquierdo del contenedor */
+    width: 500px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+   /* z-index: 10;  Asegura que la imagen esté por encima del resto del contenido */
+  }
+  
+/* Estilo para el video */
+.home video {
+    margin-right: 100px;
+    margin-left: 600px; /* Empuja el video hacia la derecha del contenedor */
+    margin-top: 20px; /* Ajusta este valor para desplazar el video hacia abajo */
+    max-width: 600px; /* Ajusta el ancho máximo del video para no desbordar */
+    height: auto; /* Mantiene la proporción del video */
+  }
+  
+  
+  .windows-win {
+    margin-top: 200px;
+  }

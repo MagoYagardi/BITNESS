@@ -1,0 +1,13 @@
+.menu-icon {
+    font-size: 24px; /* Tamaño del ícono */
+    color: white; /* Color del ícono */
+    cursor: pointer; /* Cursor de mano al pasar sobre el ícono */
+    background: none; /* Sin fondo para el botón */
+    border: none; /* Sin borde para el botón */
+    margin-right: 20px; /* Espacio entre el ícono de menú y el logo */
+  }
+  
+  .menu-icon i {
+    margin: 0; /* Ajusta el margen si es necesario */
+  }
+  

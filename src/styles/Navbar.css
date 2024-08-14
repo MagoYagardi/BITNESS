@@ -1,0 +1,48 @@
+.logo {
+  position: absolute;
+  left: 1px; /* Ajusta según la posición horizontal deseada */
+  top: 100%;  /* Posiciona la base del logo en la parte inferior del navbar */
+  transform: translateY(-60%); /* Mueve el logo hacia arriba un 50% de su altura */
+  height: 100px; /* Altura del logo */
+  z-index: 10; /* Asegura que el logo esté por encima de otros elementos */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #380670;
+  color: white;
+  position: relative; /* Necesario para que el logo se posicione correctamente */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  padding-left: 200px; /* Ajusta este valor según sea necesario */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.nav-button {
+  color: white;
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
